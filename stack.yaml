@@ -1,0 +1,7 @@
+resolver: lts-15.2
+
+packages:
+- .
+
+extra-deps:
+-  downloader-0.1.0.1
