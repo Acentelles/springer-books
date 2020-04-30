@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 1115a7cc78fc214ce5e9a6786c2c9404b4463a4e02060784718b69642b6c56d4
+-- hash: b8967f7f5a15d8c9fb6eda209633c576bb1128e6f478394b506c4af381b40870
 
 name:           springer-books
 version:        0.1.0.0
@@ -41,7 +41,7 @@ library
     , wreq
   default-language: Haskell2010
 
-executable download-springer
+executable download-books
   main-is: Main.hs
   other-modules:
       Paths_springer_books
